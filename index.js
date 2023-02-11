@@ -1,8 +1,6 @@
 const io = require('socket.io')(process.env.PORT, {
     cors: {
-        //esta direccion no tiene nada que ver con la del servidor por donde
-        //accedemos a nuestra app
-        origin: "http://localhost:3000"
+        origin: "https://socialproyect.netlify.app"
     }
 });
 //8800
