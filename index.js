@@ -40,8 +40,9 @@ io.on("connection", (socket) => {
 
         //verificamos que ese user esta activo
         const user = activeUsers.find((user) => user.userId === receiverId);
-        console.log("Sending from socket to :", receiverId)
-        console.log("Data: ", data)
+        // console.log("Sending from socket to :", receiverId)
+        // console.log("Data: ", data)
+        // console.log(user);
 
         //si esta activo
         if (user) {
